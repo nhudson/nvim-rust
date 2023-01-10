@@ -12,3 +12,7 @@ NVIM_CONFIG_HOME=`pwd` XDG_CONFIG_HOME=$NVIM_CONFIG_HOME XDG_DATA_HOME=$NVIM_CON
 This will install all the plugins listed in `nvim/lua/config/plugins.lua`.
 
 If you close and reopen Neovim, it should then start to install all the Treesitter and Mason tooling for you automatically. If it doesn't you can install what you need with `:Mason` and `:TSInstall`.
+
+## Install & Use
+
+If you wish to use this configuration then just copy the contents of the `nvim` directory to `$HOME/.config/nvim` and use Neovim as normal
