@@ -1,0 +1,7 @@
+require "config.plugins"
+require "config.colorscheme"
+require "config.cmp"
+require "config.treesitter"
+require "config.lsp"
+require "config.rust"
+require "config.crates"
